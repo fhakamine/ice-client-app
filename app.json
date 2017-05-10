@@ -1,0 +1,29 @@
+{
+  "name": "ICE Client App",
+  "description": "To make ICE customers happy",
+  "repository": "https://github.com/fhakamine/ice-client-app",
+  "logo": "https://github.com/fhakamine/ice-resource-server/blob/master/img/IceIcon_120px.png",
+  "keywords": ["Okta", "Client App", "OAuth2"],
+  "env": {
+  "AUTHZ_SERVER": {
+    "description": "In charge of granting tokens. For example: https://example.okta.com",
+    "required": false,
+    "value": "https://example.okta.com"
+  },
+  "REDIRECT_URI": {
+    "description": "The redirect URI for this application",
+    "required": false,
+    "value": "https://YOUR_APP_NAME.herokuapp.com/authorization-code/callback"
+  },
+  "CLIENT_ID": {
+    "description": "The app client id",
+    "required": false,
+    "value": "IASjd023kdk30ei9i3je"
+  },
+  "CLIENT_SECRET": {
+    "description": "The app client secret",
+    "required": false,
+    "value": "SRaD_GNsS30dKAXyvAVLnruTZH4Oq89C3zFvyNEg"
+  }
+},
+}
