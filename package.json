@@ -5,7 +5,7 @@
   "homepage": "https://github.com/fhakamine/ice-client-app",
   "scripts": {
     "start": "node lib/index.js",
-    "prestart": "build-frontend",
+    "prestart": "build-frontend"
   },
   "devDependencies": {
     "chalk": "1.1.3",
